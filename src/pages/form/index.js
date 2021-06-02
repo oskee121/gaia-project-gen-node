@@ -75,7 +75,6 @@ function Home(props) {
       })
       const { id } = body;
       router.push("/result/" + id);
-      // const { factions, hexMap } = body.result||{};
       return {
         props: {
           factions,
@@ -85,8 +84,6 @@ function Home(props) {
     } catch (error) {
       return setSubmitting(false);
     }
-    // return httpCli
-    // return false;
   }
   function formIsDisabled() {
     return submitting;
@@ -107,7 +104,7 @@ function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>GP Gen Node</title>
+        <title>Gen Gaia</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -117,7 +114,7 @@ function Home(props) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>GP Gen Node</h1>
+        <h1 className={styles.title}>Gen Gaia</h1>
 
         <div className={styles.section}>
           <div className={styles.card}>
@@ -131,11 +128,6 @@ function Home(props) {
                 >
                   Add Seat
                 </button>
-                {/* <button name="button" onClick={() => {
-                    players.pop();
-                    return setPlayers([...players]);
-                  }} className={`${styles.commonInputStyles} ${styles.button}`}
-                  disabled={!(players.length > 1)}>Remove</button> */}
               </div>
             </div>
 

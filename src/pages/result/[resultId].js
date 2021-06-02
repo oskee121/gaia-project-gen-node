@@ -23,7 +23,7 @@ export default function Result(props) {
     return (
       <div className={styles.container}>
         <Head>
-          <title>GP Gen Node</title>
+          <title>Gen Gaia</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div>{props.error.code} {props.error.msg}</div>
@@ -105,14 +105,14 @@ export default function Result(props) {
     return (
       <div className={styles.container}>
         <Head>
-          <title>GP Gen Node</title>
+          <title>Gen Gaia</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <main className={styles.main}>
           <div className={styles.title}>
             <div className={styles.titleTextStyle}>
-              GP Gen Node
+              Gen Gaia
             </div>
           </div>
 
