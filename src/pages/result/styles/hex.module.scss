@@ -1,0 +1,173 @@
+@import 'src/styles/_configs/index.scss';
+
+$hex-default-background-color: #ffffff;
+$default-text-color: #ffffff;
+$hex-center-background-color: #181818;
+$hex-planet-background-color: #000;
+// $hex-center-background-color: #000000;
+// $hex-0-background-color: #000000;
+// $hex-1-background-color: #080808;
+// $hex-2-background-color: #101010;
+// $hex-3-background-color: #181818;
+$hex-0-background-color: #202020;
+$hex-1-background-color: #282828;
+$hex-2-background-color: #303030;
+$hex-3-background-color: #383838;
+$hex-4-background-color: #404040;
+$hex-5-background-color: #484848;
+$hex-6-background-color:#505050;
+$hex-7-background-color:#303030;
+$hex-8-background-color:#282828;
+$hex-9-background-color:#202020;
+/* hex */
+/* svg {
+
+} */
+/*
+Russian blue pattern:
+#7be3f6
+#4499a9
+#276a76
+#133b43
+#03090a
+*/
+/* svg g { */
+  /* fill: #d9d9d6;
+  fill-opacity: 0.6; */
+/* } */
+/* svg g:hover {
+  fill: #7be3f6;
+  fill-opacity: 0.7;
+} */
+
+.hexagon {
+  fill: $hex-default-background-color;
+  // fill-opacity: 0.6;
+}
+.planet-bg {
+  fill: $hex-planet-background-color;
+  // fill-opacity: 0.6;
+}
+
+// .space {
+//   /* fill: #000;
+//   fill-opacity: 0.6; */
+// }
+.space-text-center {
+  fill: $hex-center-background-color;
+  // fill-opacity: 0.6;
+}
+.space0 {
+  fill: $hex-0-background-color;
+  // fill-opacity: 0.6;
+}
+.space1 {
+  fill: $hex-1-background-color;
+  // fill-opacity: 0.6;
+}
+.space2 {
+  fill: $hex-2-background-color;
+  // fill-opacity: 0.6;
+}
+.space3 {
+  fill: $hex-3-background-color;
+  // fill-opacity: 0.6;
+}
+.space4 {
+  fill: $hex-4-background-color;
+  // fill-opacity: 0.6;
+}
+.space5 {
+  fill: $hex-5-background-color;
+  // fill-opacity: 0.6;
+}
+.space6 {
+  fill: $hex-6-background-color;
+  // fill-opacity: 0.6;
+}
+.space7 {
+  fill: $hex-7-background-color;
+  // fill-opacity: 0.6;
+}
+.space8 {
+  fill: $hex-8-background-color;
+  // fill-opacity: 0.6;
+}
+.space9 {
+  fill: $hex-9-background-color;
+  // fill-opacity: 0.6;
+}
+
+
+.text {
+  font-family: "Space Mono", monospace;
+  font-size: 3px;
+  fill: white;
+}
+// .text-undeline {
+//   text-decoration: underline;
+// }
+.arrow-text {
+  font-family: "Space Mono", monospace;
+  font-size: 3.5px;
+}
+.textSmall {
+  font-size: 1.5px;
+  fill: $default-text-color;
+  font-family: "Space Mono", monospace;
+}
+
+.planetRed {
+  /* background: transparent url(//picsum.photos/400) 50% 50%; */
+  /* fill: url(//picsum.photos/400); */
+  fill: link('http://localhost:3000/images/planet-earth.png')
+}
+
+.planetEarth {
+  /* background:  50% 50%; */
+  /* fill: transparent url('../images/planet-earth.png'); */
+}
+
+.rotate0 {
+  /* transform: rotate(0); */
+  transform: translate(0, -3.25px);
+}
+.rotate1 {
+  transform: rotate(60deg) translate(0, -3.25px);
+}
+.rotate2 {
+  transform: rotate(120deg) translate(0, -3.25px);
+}
+.rotate3 {
+  transform: rotate(180deg) translate(0, -3.25px);
+}
+.rotate4 {
+  transform: rotate(240deg) translate(0, -3.25px);
+}
+.rotate5 {
+  transform: rotate(300deg) translate(0, -3.25px);
+}
+
+/* svg g:hover text {
+  fill-opacity: 1;
+}
+
+svg g polygon {
+  stroke: white;
+  stroke-width: 0.2;
+  transition: fill-opacity .5s;
+}
+svg g text {
+  font-size: 2px;
+  fill: white;
+  fill-opacity: 0.7;
+  transition: fill-opacity .5s;
+}
+svg path {
+  fill: none;
+  stroke: pink;
+  stroke-width: 0.2em;
+  stroke-opacity: 0.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+} */
