@@ -4,19 +4,23 @@
 
 First, install then run the development server:
 
+__This project prefered `yarn` instead of `npm`__
+
 ```bash
 yarn
 
 yarn dev
 ```
 
-__npm__
+<del>
+[npm]
 
 ```bash
 npm i
 
 npm run dev
 ```
+</del>
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -26,14 +30,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 yarn dev -p 3301
 ```
 
-__npm__
+<del>
+[npm]
 
 ```bash
 npm run dev -- -p 3301
 ```
+</del>
 
-
-## To start mongo db (local machine)
+## To start mongo db (Local Machine)
 
 ```
 docker run -d -p 27017:27017 --name mongodb_loc  mongo
@@ -53,11 +58,13 @@ docker run -d -p 27017:27017 --name mongodb_loc  mongo
 yarn build
 ```
 
-__npm__
+<del>
+[npm]
 
 ```bash
 npm run build
 ```
+</del>
 
 ## Start
 
@@ -65,12 +72,21 @@ npm run build
 yarn start [-p PORT]
 ```
 
-__npm__
+<del>
+[npm]
 
 ```bash
 npm start [-- -p PORT]
 ```
+</del>
 
+## Debugging
+
+```bash
+yarn debug [-p PORT]
+```
+
+Then use __Chrome Inspector__ or __VSCode Inspector__ as a debugger
 
 ## Copyright
 

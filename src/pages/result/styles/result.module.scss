@@ -1,0 +1,174 @@
+@import 'src/styles/_configs/index.scss';
+
+/* body {
+  margin: 0;
+  padding: 1em;
+  font-family: sans-serif;
+  background: #f0f0f0;
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-user-drag: element;
+  -webkit-user-drag: element;
+  -khtml-user-drag: element;
+  user-drag: element;
+} */
+.container {
+  background-color: $theme-color-background-color;
+}
+.main {
+  padding: 0;
+  margin: 0;
+}
+.title {
+  background-color: #9e978e;
+}
+.titleTextStyle {
+  font-size: 1.3em;
+  color: #3F51B5;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+.hexgrid {
+    border: 5px solid #9e978e;
+    padding: 10px;
+    margin: 10px;
+    background-color: #9e978e;
+  }
+.grid {
+    border: 5px solid #00b08b;
+}
+.hexgrid .grid g:hover {
+  fill-opacity: 1;
+}
+.hexgrid .grid g:hover text {
+  fill-opacity: 1;
+}
+
+.hexgrid .grid g polygon {
+  stroke: #3F51B5;
+  stroke-width: 0.2;
+  transition: fill-opacity .2s;
+}
+.hexgrid .grid g text {
+  font-size: 0.3em;
+  fill: #FFFFFF;
+  fill-opacity: 0.4;
+  transition: fill-opacity .2s;
+}
+.hexgrid .grid path {
+  fill: none;
+  stroke: hsl(60, 20%, 70%);
+  stroke-width: 0.4em;
+  stroke-opacity: 0.3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.federationsTile {
+  width: 8em;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.techTileAdv {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.techTile {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: calc(100vw/8/8);
+  margin-bottom: 1em;
+
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.techTile-child {
+  flex: 1 auto;
+}
+
+.techTile-table {
+  display: table;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+.techTile-row {
+  display: table-row;
+}
+.techTile-cell {
+  display: table-cell;
+}
+.techTile-cell-image  {
+  text-align: center;
+}
+.techTile-cell-image img {
+  max-width: 116px;
+  max-height: 92px;
+}
+
+
+.boosters {
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 1em;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boosters-img {
+  // margin-left: 1em;
+  // margin-right: 1em;
+  flex: 1 auto;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+.rounds {
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 1em;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rounds-img {
+  // margin-left: 1em;
+  margin-right: 1em;
+  flex: 1 auto;
+}
+.final {
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 1em;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.final-img {
+  // margin-left: 1em;
+  margin-right: 1em;
+  flex: 1 auto;
+}
