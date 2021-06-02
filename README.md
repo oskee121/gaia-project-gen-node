@@ -10,7 +10,7 @@ yarn
 yarn dev
 ```
 
-__npm__
+-- npm --
 
 ```bash
 npm i
@@ -26,14 +26,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 yarn dev -p 3301
 ```
 
-__npm__
+-- npm --
 
 ```bash
 npm run dev -- -p 3301
 ```
 
 
-## To start mongo db (local machine)
+## To start mongo db (Local Machine)
 
 ```
 docker run -d -p 27017:27017 --name mongodb_loc  mongo
@@ -53,7 +53,7 @@ docker run -d -p 27017:27017 --name mongodb_loc  mongo
 yarn build
 ```
 
-__npm__
+-- npm --
 
 ```bash
 npm run build
@@ -65,7 +65,7 @@ npm run build
 yarn start [-p PORT]
 ```
 
-__npm__
+-- npm --
 
 ```bash
 npm start [-- -p PORT]
