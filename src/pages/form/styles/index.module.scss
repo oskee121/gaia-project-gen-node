@@ -12,7 +12,7 @@
   flex-direction: column;
   flex: 1;
   justify-content: center;
-  min-height: 100vh;
+  min-height: calc(100vh - 100px);
   padding: 5rem 0;
   width: calc(100vw - 5%);
   margin: auto;
@@ -25,6 +25,7 @@
   height: 100px;
   justify-content: center;
   width: 100%;
+  color: $theme-color-font-color-base;
 }
 
 /* .footer img {
