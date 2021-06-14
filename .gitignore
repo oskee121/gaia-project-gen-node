@@ -35,6 +35,3 @@ yarn-error.log*
 
 # enable yarn.lock
 !yarn.lock
-
-# custom files
-copy-to-github.sh
